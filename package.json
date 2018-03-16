@@ -1,0 +1,31 @@
+{
+  "name": "react-context-example",
+  "version": "1.0.0",
+  "description": "This webapp shows an example of the new `createContext` API in React 16.3.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idmontie/react-context-example.git"
+  },
+  "bugs": {
+    "url": "https://github.com/idmontie/react-context-example/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel watch --open src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Montiel <idmontie@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.21.0",
+    "react": "^16.3.0-alpha.2",
+    "react-dom": "^16.3.0-alpha.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
