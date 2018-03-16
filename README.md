@@ -4,6 +4,7 @@ React Context Example
 This webapp shows an example of the new `createContext` API in React 16.3.
 
 ```
+yarn global add parcel-bundler
 yarn install
 yarn start
 ```
